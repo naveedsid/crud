@@ -6,7 +6,7 @@ $conn = new PDO(DSN, USERNAME, PASSWORD);
 $sql = "SELECT * FROM `tbl_student`";
 $result = $conn->query($sql);
 
-
+//Counting Rows
 //if($result->rowCount() > 0){
 	//while($row = $result->fetch(PDO::FETCH_ASSOC)){
 		//echo "<pre>",print_r($row),"</pre>";
